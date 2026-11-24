@@ -1,0 +1,10 @@
+schema_version: 1
+watch_paths:
+  - 'C:\PurpleShield\test_area'
+log_path: 'C:\PurpleShield\logs\events.jsonl'
+rotate_mb: 5            # لما الملف يكبر عن كده يتقفل ويبدأ ملف جديد
+debounce_seconds: 1.0   # تجاهل Modify المتكررة خلال ثانية
+self_ignore:            # الأماكن اللي الـ Agent ما يراقبهاش (ملفاته هو)
+  - 'C:\PurpleShield\logs'
+  - 'C:\PurpleShield\agent'
+  - 'C:\PurpleShield\venv'

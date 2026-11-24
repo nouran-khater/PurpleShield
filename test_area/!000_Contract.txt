@@ -1,0 +1,4 @@
+﻿Employment Contract
+Employee: Ahmed Ali
+Salary: 12000 EGP
+Start date: 2024-01-01

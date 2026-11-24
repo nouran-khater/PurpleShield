@@ -1,0 +1,3 @@
+﻿id,name,phone
+1,Mohamed Samir,01012345678
+2,Sara Hassan,01123456789
